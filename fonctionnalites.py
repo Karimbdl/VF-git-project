@@ -47,7 +47,7 @@ buttons = [
     ("ln", 1, 4), ("sin", 2, 4), ("cos", 3, 4), ("tan", 4, 4),
     ("(", 5, 2), (")", 5, 1) #yes
 ]
-a = 3
+a = 34
 for (text, row, column) in buttons:
     button = tk.Button(root, text=text, font=("Arial", 18), padx=20, pady=10, bd=5, bg="#f0f0f0", activebackground="#cccccc", highlightthickness=0)
     button.grid(row=row, column=column, padx=5, pady=5, sticky="nsew")
