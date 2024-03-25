@@ -41,3 +41,5 @@ root.grid_rowconfigure((1, 2, 3, 4, 5), weight=1)
 
 root.mainloop()
 #test
+
+#zafezafezfe
