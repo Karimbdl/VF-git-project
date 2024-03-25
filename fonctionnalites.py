@@ -55,5 +55,5 @@ for (text, row, column) in buttons:
 
 root.grid_columnconfigure((0, 1, 2, 3, 4), weight=1)
 root.grid_rowconfigure((1, 2, 3, 4, 5), weight=1)
-#yes
+
 root.mainloop()
